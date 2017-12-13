@@ -1,12 +1,52 @@
+/*Removes the body default margin and padding*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/bg.jpg");
+}
+
+
+/*Header styles*/
+
 header {
-    background-color: #ff1e26;
+    background-color: #ec0008;
     color: white;
-    opacity: 0.7;
+    opacity: 0.85;
     margin: 0;
     height: 3em;
+    padding: 5px;
 }
 
 header h1 {
     text-align: center;
-    font-family:
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    opacity: 1;
+}
+
+
+/*Navigation styles*/
+
+nav {
+    background-color: #960106;
+    height: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #290103;
+    text-decoration: underline;
+    padding-top: 10px;
 }
