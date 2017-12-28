@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../imgs/bg.jpg");
+
 }
 
 
@@ -34,6 +34,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 nav a {
@@ -43,10 +44,11 @@ nav a {
     width: 50%;
     height: 100%;
     color: white;
+    padding-top: 10px;
 }
 
 nav a:hover {
     background-color: #290103;
-    text-decoration: underline;
-    padding-top: 10px;
+    overflow: hidden;
+     
 }
