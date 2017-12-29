@@ -43,7 +43,8 @@ getJSON(quoteUrl, (callback)=>{
     quote.innerHTML = callback.quoteText
 })
 
-var iframe = window.parent.document.getElementById("cal")
+//setting the size of the iframe
+window.onload = function () { var iframe = window.parent.document.getElementById("cal")
 iframe.style.height = "100%"
 iframe.style.width = "100%"
-
+}
