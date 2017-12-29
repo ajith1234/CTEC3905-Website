@@ -15,7 +15,7 @@ var getJSON = function (url, callback) {
 };
 
 //weather tile variables
-let weatherUrl = "http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/352249?res=3hourly&key=d551ff99-fcc9-4c95-bc77-521d080a9549"
+let weatherUrl = "https://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/352249?res=3hourly&key=d551ff99-fcc9-4c95-bc77-521d080a9549"
 let weatherCodes = ['Clear night','Sunny day','Partly cloudy (night)','Partly cloudy (day)','Not used','Mist','Fog','Cloudy','Overcast','Light rain shower (night)','Light rain shower (day)','Drizzle','Light rain','Heavy rain shower (night)','Heavy rain shower (day)','Drizzle','Light rain','Heavy rain shower (night)','Heavy rain shower (day)','Heavy rain','Sleet shower (night)','Sleet shower (day)','Sleet','Hail shower (night)','Hail shower (day)','Hail','Light snow shower (night)','Light snow shower (day)','Light snow','Heavy snow shower (night)','Heavy snow shower (day)','Heavy snow','Thunder shower (night)','Thunder shower (day)','Thunder']
 let temp = document.getElementById("FLT")
 let weatherType = document.getElementById("WT")
@@ -31,7 +31,7 @@ getJSON(weatherUrl, (callback) => {
 
 
 //Quote Tile
-let quoteUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&key=3&lang=en"
+let quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&format=json&key=3&lang=en"
 getJSON(quoteUrl, ()=>{
     console.log(callback)
 })
