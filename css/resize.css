@@ -4,15 +4,18 @@
     }
     #quicklinks ul li a {
         font-size: 15px;
+        text-align: center;
     }
     #quicklinks ul li {
         padding-top: 20px;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 850px) {
     #Plax-image {
         flex-direction: column;
+        height: 100vh;
     }
     .tile {
         width: auto;
@@ -22,5 +25,16 @@
         height: 30vh;
         padding: 15px;
         
+        
     }
+
+    #quicklinks ul{
+     margin: 0;
+     padding: 0;   
+    }
+    #quicklinks ul li{
+      
+        padding-top: 10px;
+        width: 100%;   
+       }
 }
