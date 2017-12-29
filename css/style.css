@@ -28,6 +28,14 @@ body {
     opacity: 1;
 }
 
+.quote-text {
+    font-family: Quicksand;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    opacity: 1;
+}
+
 
 /*Header styles*/
 
@@ -101,7 +109,9 @@ nav a:hover {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 2s;
-    background-color: #313133
+    background-color: #313133;
+    opacity: 0.75;
+    padding: 10px;
 }
 
 
@@ -156,10 +166,12 @@ nav a:hover {
 
 
 /*WeatherTile styles */
+#quoteTile{
+    
+}
 
 #weatherTile {
-    opacity: 0.75;
-    padding: 10px;
+    
 }
 
 #galleryTile {
