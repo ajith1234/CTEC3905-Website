@@ -15,7 +15,15 @@ body {
     font-family: Nunito;
     text-align: center;
     color: white;
-    opacity: 1 !important; 
+    opacity: 1 !important;
+}
+
+.weather-attribute {
+    width: 100%;
+    font-family: Quicksand;
+    margin: 5px;
+    color: white;
+    opacity: 1;
 }
 
 
@@ -32,7 +40,7 @@ header {
     animation-timing-function: ease-in;
     animation-duration: 2s;
     position: relative;
-    background-image: url("../imgs/solar.jpeg");
+    background-image: url("https://source.unsplash.com/random");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,16 +88,15 @@ nav a:hover {
     width: 100%;
     min-width: 180px;
     height: 320px;
-    max-height:320px;
+    max-height: 320px;
     margin: 1em;
     border-radius: 12px;
     box-sizing: border-box;
-    
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 2s;
-    background-color:#313133
+    background-color: #313133
 }
 
 
@@ -133,7 +140,7 @@ nav a:hover {
     height: 85vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../imgs/earth-space.jpg");
+    background-image: url("https://source.unsplash.com/random");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -142,8 +149,20 @@ nav a:hover {
     flex-direction: row;
 }
 
+
+/*WeatherTile styles */
+
 #weatherTile {
-   
+    opacity: 0.75;
+    padding: 10px;
+}
+
+#galleryTile {
+    background-image: url("");
+    background-position: center;
+    background-size: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -162,7 +181,7 @@ nav a:hover {
     0% {
         opacity: 0;
         transform: translateY(startYposition);
-    } 
+    }
     100% {
         opacity: 0.8;
         transform: translateY(endYposition);

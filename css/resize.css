@@ -10,6 +10,10 @@
         padding-top: 20px;
         text-align: center;
     }
+
+    .weather-attribute {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -25,8 +29,11 @@
         height: 30vh;
         padding: 15px;
         
-        
-    }
+       }
+
+       .weather-attribute {
+           text-align: center;
+       }
 
     #quicklinks ul{
      margin: 0;
