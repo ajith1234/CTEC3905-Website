@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1021px) {
+    .section-header {
+    font-size: 20px;
+    }
+        
+    #quicklinks ul li a{
+    font-size: 15px;
+    }
+
+    #quicklinks ul li {
+    padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #quicklinks {
+        
+        width: 80%;
+        margin: 0;
+        padding: 15px;
+    }
+
+}
