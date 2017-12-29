@@ -28,3 +28,10 @@ getJSON(weatherUrl, (callback) => {
     temp.innerHTML += data.T + "c"
     weatherType.innerHTML += weatherCodes[data.W] 
 })
+
+
+//Quote Tile
+let quoteUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&key=3&lang=en"
+getJSON(quoteUrl, ()=>{
+    console.log(callback)
+})
