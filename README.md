@@ -35,4 +35,6 @@ The final result looks like this
 
 please note there is a footer below the the bg image where I can add more content, such as notes and reminders easily. You will see this when using the site
 
+Furthermore, the quote tile uses an API so there are new quotes on each page load.
+
 
