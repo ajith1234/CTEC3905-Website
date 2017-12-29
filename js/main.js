@@ -26,4 +26,5 @@ getJSON(weatherUrl, (callback) => {
     console.log(callback)
     let data = callback.SiteRep.DV.Location.Period[0].Rep[0]
     temp.innerHTML += data.T + "c"
+    weatherType.innerHTML += weatherCodes[data.W] 
 })
