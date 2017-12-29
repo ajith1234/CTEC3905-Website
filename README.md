@@ -13,6 +13,8 @@ As you can see the design seemed to change during development. This was done to 
 
 One example of this was the Gallery tile, which was replaced to the Quote tile. I realised that the whole page could be a gallery of fresh images rather than one tile. To accomplish this I made the background random on every page load thanks to https://source.unsplash.com
 
+The site is also responsive! I made sure to plan ahead before coding of what the site would look like on mobile. I have added two breakpoints using css media queries 
+
 # Resources
 
 background images: https://source.unsplash.com
@@ -27,8 +29,10 @@ https://forismatic.com/en
 editor used: vscode
 
 # Result
+
+The final result looks like this
 ![Alt text](imgs/result.png)
 
-The final result looks like this. please note there is a section below the the bg image where i can add more content, such as notes and reminders easily
+please note there is a footer below the the bg image where I can add more content, such as notes and reminders easily. You will see this when using the site
 
 
