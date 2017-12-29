@@ -21,7 +21,7 @@ let temp = document.getElementById("FLT")
 let weatherType = document.getElementById("WT")
 
 
-
+// sends get request to get the data needed
 getJSON(weatherUrl, (callback) => {
     console.log(callback)
     let data = callback.SiteRep.DV.Location.Period[0].Rep[0]
@@ -30,13 +30,20 @@ getJSON(weatherUrl, (callback) => {
 })
 
 
-//Quote Tile
+//Quote Tile variables
 let quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&format=json&key=3&lang=en"
 let author = document.getElementById("author")
 let quote = document.getElementById("quote")
+
+//get request made to url and gets data
 getJSON(quoteUrl, (callback)=>{
     console.log(callback)
 
     author.innerHTML = callback.quoteAuthor
     quote.innerHTML = callback.quoteText
 })
+
+var iframe = window.parent.document.getElementById("cal")
+iframe.style.height = "100%"
+iframe.style.width = "100%"
+

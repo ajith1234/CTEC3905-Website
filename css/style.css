@@ -166,13 +166,6 @@ nav a:hover {
 
 
 /*WeatherTile styles */
-#quoteTile{
-    
-}
-
-#weatherTile {
-    
-}
 
 #galleryTile {
     background-image: url("");
@@ -182,6 +175,12 @@ nav a:hover {
     background-attachment: fixed;
 }
 
+/* calander styles */
+.cal {
+width: "100%";
+height: "100%";
+
+}
 
 /* Css key frames */
 
