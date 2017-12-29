@@ -5,7 +5,7 @@ Please Note: There seems to be an issue with the APIs I used and github pages. T
 
 # Design
 
-My Website is a Dashboard/Homepage that I can use. As such I wanted to make sure that the page is single page application, due to the nature of the site. The site will only have my attention for a mintue at max whilst I navigate to another page. Here is a quick sketch of what I planned to create at the begining
+My Website is a Dashboard/Homepage that I can use. As such I wanted to make sure that the page is an single page application, due to the nature of the site. The site will only have my attention for a mintue at max whilst I navigate to another page. Here is a quick sketch of what I planned to create at the begining
 
 ![Alt text](imgs/design.jpeg)
 
@@ -23,4 +23,12 @@ API's used for weather: https://www.metoffice.gov.uk/datapoint/getting-started
 
 API for quotes:
 https://forismatic.com/en
+
+editor used: vscode
+
+# Result
+![Alt text](imgs/result.png)
+
+The final result looks like this. please note there is a section below the the bg image where i can add more content, such as notes and reminders easily
+
 
